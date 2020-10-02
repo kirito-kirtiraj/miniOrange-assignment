@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600;700&display=swap');
+
+body {
+    font-family: 'Railway', sans-serif;
+    color: #686e76;
+}
+
+h2#key {
+    font-weight: 600;
+}
+
+.fa {
+    color: #3b75b5;
+}
+
+.plans .fa {
+    color: white;
+}
+.info {
+    background-color: #3d8789;
+    color: #f4f0db;
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+.info a {
+    color: skyblue;
+}
+
+.plans h2 {
+    font-weight: 100;
+}
+
+.plans h4,
+.plans h2,
+.plans #premium {
+    color: #3d5f62 ;
+}
+
+.upgrade1 {
+    background-color: black;
+}
+
+.plans a {
+    color: white;
+}
+
+.alternate {
+    background-color: #eeeeee;
+}
+
+.alternate-col,
+a.alternate-col,
+.plans h2.alternate-col,
+.plans h4.alternate-col {
+    color: rgb(52, 160, 202);
+}
+
+.plans .col-lg-3 {
+    border: 3px solid #eeeeee;
+}
+
+.invisible {
+    opacity: 0;
+}
+
+img {
+    border-radius: 30%;
+    width: 75%;
+}
+
+body .test {
+    color: black;
+}
+
+.test.fa {
+    color: coral;
+}
+
+@media (max-width: 1366px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    h6 {
+        font-size: 0.8rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+
+    body {
+        font-size: 0.8rem;
+    }
+
+    img {
+        width: 90%;
+    }
+}
